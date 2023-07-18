@@ -1,0 +1,10 @@
+.catalog-product__lists {
+  width: calc(100% - 105*2px);
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(380px, 1fr));
+  row-gap: 20px;
+  column-gap: 12px;
+  margin: 0 auto;
+  margin-top: 46px;
+  height: 100%;
+}

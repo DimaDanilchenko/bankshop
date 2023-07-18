@@ -1,0 +1,20 @@
+.banner__button {
+  margin-top: 39px;
+  width: 204px;
+  height: 48px;
+  flex-shrink: 0;
+  margin-left: 76px;
+  background-color: #497AE2;
+  border-radius: 10px;
+  border: none;
+  color: #EBF4FC;
+  font-size: 16px;
+  font-family: Geometria;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+.banner__button:hover{
+  cursor: pointer;
+  box-shadow: 0px 0px 10px 0px rgba(3, 4, 8, 0.25);
+}

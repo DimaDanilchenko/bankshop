@@ -1,0 +1,17 @@
+.banner__title {
+  margin: 0;
+  margin-top: 29px;
+  color: #111;
+  font-size: 28px;
+  font-family: Geometria;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  max-width: 429px;
+  margin-left: 76px;
+}
+@media screen and (max-width: 1260px) {
+  .banner__title{
+    
+  }
+}

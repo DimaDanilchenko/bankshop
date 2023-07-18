@@ -1,0 +1,12 @@
+.banner__photo {
+  position: absolute;
+  max-width: 573px;
+  right: 32px;
+  top: 44px;
+  z-index: 1;
+}
+@media screen and (max-width: 1280px) {
+  .banner__photo{
+    max-width: 500px;
+  }
+}

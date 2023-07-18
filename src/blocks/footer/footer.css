@@ -1,0 +1,7 @@
+.footer {
+  height: 330px;
+  background: #232323;
+  margin-top: 50px;
+  display: flex;
+  flex-direction: row;
+}

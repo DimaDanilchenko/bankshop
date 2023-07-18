@@ -1,0 +1,13 @@
+.banner__button-left {
+  width: 41px;
+  height: 40px;
+  border-radius: 41px;
+  border: 1px solid #3257A4;
+  margin-left: 76px;
+  margin-top: 20px;
+  background-color: white;
+}
+.banner__button-left:hover{
+  cursor: pointer;
+  box-shadow: 0px 0px 10px 0px rgba(3, 4, 8, 0.25);
+}
