@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/bankshop/static/css/main.42458925.css",
-    "main.js": "/bankshop/static/js/main.ef7fcdaa.js",
+    "main.css": "/bankshop/static/css/main.8f3f5fe7.css",
+    "main.js": "/bankshop/static/js/main.34436f98.js",
     "static/js/787.6b266443.chunk.js": "/bankshop/static/js/787.6b266443.chunk.js",
     "static/media/Inter-Black.woff": "/bankshop/static/media/Inter-Black.87c06fd2ac7128c9a81d.woff",
     "static/media/Inter-Regular.woff": "/bankshop/static/media/Inter-Regular.0d6f7c99e635f1fec4c9.woff",
@@ -9,13 +9,15 @@
     "static/media/Inter-Medium.woff2": "/bankshop/static/media/Inter-Medium.293fd13dbca5a3e450ef.woff2",
     "static/media/Inter-Black.woff2": "/bankshop/static/media/Inter-Black.ed17840f58cc8c61635a.woff2",
     "static/media/Inter-Regular.woff2": "/bankshop/static/media/Inter-Regular.bd097ceff83f90802a12.woff2",
+    "static/media/catalog-photo.png": "/bankshop/static/media/catalog-photo.ed8d5fbcdf63d9fe1523.png",
     "index.html": "/bankshop/index.html",
-    "main.42458925.css.map": "/bankshop/static/css/main.42458925.css.map",
-    "main.ef7fcdaa.js.map": "/bankshop/static/js/main.ef7fcdaa.js.map",
+    "static/media/hamburger_menu_icon_160905.svg": "/bankshop/static/media/hamburger_menu_icon_160905.5f0146fac99a695dadb108b70fb9b444.svg",
+    "main.8f3f5fe7.css.map": "/bankshop/static/css/main.8f3f5fe7.css.map",
+    "main.34436f98.js.map": "/bankshop/static/js/main.34436f98.js.map",
     "787.6b266443.chunk.js.map": "/bankshop/static/js/787.6b266443.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.42458925.css",
-    "static/js/main.ef7fcdaa.js"
+    "static/css/main.8f3f5fe7.css",
+    "static/js/main.34436f98.js"
   ]
 }
