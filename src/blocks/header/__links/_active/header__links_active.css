@@ -9,4 +9,10 @@
   background-color: grey;
   color: black;
   width: 100%;
+  opacity: 0;
+  animation: ani 1.5s forwards;
+}
+@keyframes ani {
+  0% {opacity: 0;}
+  100% {opacity: 1;}
 }
