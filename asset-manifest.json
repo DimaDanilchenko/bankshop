@@ -1,16 +1,21 @@
 {
   "files": {
-    "main.css": "/bankshop/static/css/main.073c9b0a.css",
-    "main.js": "/bankshop/static/js/main.6639d3aa.js",
+    "main.css": "/bankshop/static/css/main.42458925.css",
+    "main.js": "/bankshop/static/js/main.ef7fcdaa.js",
     "static/js/787.6b266443.chunk.js": "/bankshop/static/js/787.6b266443.chunk.js",
-    "static/media/logo.svg": "/bankshop/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
+    "static/media/Inter-Black.woff": "/bankshop/static/media/Inter-Black.87c06fd2ac7128c9a81d.woff",
+    "static/media/Inter-Regular.woff": "/bankshop/static/media/Inter-Regular.0d6f7c99e635f1fec4c9.woff",
+    "static/media/Inter-Medium.woff": "/bankshop/static/media/Inter-Medium.9053572c46aeb4b16caa.woff",
+    "static/media/Inter-Medium.woff2": "/bankshop/static/media/Inter-Medium.293fd13dbca5a3e450ef.woff2",
+    "static/media/Inter-Black.woff2": "/bankshop/static/media/Inter-Black.ed17840f58cc8c61635a.woff2",
+    "static/media/Inter-Regular.woff2": "/bankshop/static/media/Inter-Regular.bd097ceff83f90802a12.woff2",
     "index.html": "/bankshop/index.html",
-    "main.073c9b0a.css.map": "/bankshop/static/css/main.073c9b0a.css.map",
-    "main.6639d3aa.js.map": "/bankshop/static/js/main.6639d3aa.js.map",
+    "main.42458925.css.map": "/bankshop/static/css/main.42458925.css.map",
+    "main.ef7fcdaa.js.map": "/bankshop/static/js/main.ef7fcdaa.js.map",
     "787.6b266443.chunk.js.map": "/bankshop/static/js/787.6b266443.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.073c9b0a.css",
-    "static/js/main.6639d3aa.js"
+    "static/css/main.42458925.css",
+    "static/js/main.ef7fcdaa.js"
   ]
 }
