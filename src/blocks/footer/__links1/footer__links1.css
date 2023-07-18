@@ -4,3 +4,8 @@
   color: white;
   margin-top: 64px;
 }
+@media screen and (max-width: 500px) {
+  .footer__links1{
+    margin-left: 20px;
+  }
+}

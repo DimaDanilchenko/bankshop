@@ -1,9 +1,13 @@
+import bannerLogo from "../images/metrax-logo1.png";
+import leftButton from "../images/left-button.png";
+import rightButton from "../images/right-button.png";
+import catalogPhoto from "../images/catalog-photo.png";
 function Main() {
   return (
     <main className="content">
       <section className="banner">
         <img src="./image/mainLogoBanner.png" alt="" className="banner__photo" />
-        <img src="./image/metrax-logo1.png" alt="" className="banner__logo" />
+        <img src={bannerLogo} alt="" className="banner__logo" />
         <p className="banner__title">
           Ручные и автоматические дефибрилляторы «Primedic»
         </p>
@@ -11,12 +15,12 @@ function Main() {
           что то нужно написать, может быть качество и выгодные цены..
         </p>
         <button className="banner__button">перейти в каталог</button>
-        <div className="banner__butons">
+        <div className="banner__buttons">
           <button className="banner__button-left">
-            <img src="./image/left-button.png" alt="" />
+            <img src={leftButton} alt="" />
           </button>
           <button className="banner__button-right">
-            <img src="./image/right-button.png" alt="" />
+            <img src={rightButton} alt="" />
           </button>
         </div>
       </section>
@@ -29,7 +33,7 @@ function Main() {
               перейти в каталог &gt;
             </a>
             <img
-              src="./image/catalog-photo.png"
+              src={catalogPhoto}
               className="catalog-product__photo"
             />
           </div>
@@ -39,7 +43,7 @@ function Main() {
               перейти в каталог &gt;
             </a>
             <img
-              src="./image/catalog-photo.png"
+              src={catalogPhoto}
               className="catalog-product__photo"
             />
           </div>
@@ -49,7 +53,7 @@ function Main() {
               перейти в каталог &gt;
             </a>
             <img
-              src="./image/catalog-photo.png"
+              src={catalogPhoto}
               className="catalog-product__photo"
             />
           </div>
@@ -59,7 +63,7 @@ function Main() {
               перейти в каталог &gt;
             </a>
             <img
-              src="./image/catalog-photo.png"
+              src={catalogPhoto}
               className="catalog-product__photo"
             />
           </div>
@@ -69,7 +73,7 @@ function Main() {
               перейти в каталог &gt;
             </a>
             <img
-              src="./image/catalog-photo.png"
+              src={catalogPhoto}
               className="catalog-product__photo"
             />
           </div>
@@ -79,7 +83,7 @@ function Main() {
               перейти в каталог &gt;
             </a>
             <img
-              src="./image/catalog-photo.png"
+              src={catalogPhoto}
               className="catalog-product__photo"
             />
           </div>

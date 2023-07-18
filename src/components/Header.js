@@ -1,8 +1,9 @@
 import React, { useState } from 'react';
+import headerButton from "../images/hamburger_menu_icon_160905.svg";
 
 function Header() {
   let [isMenuHeaderOpen, setMenuHeaderOpen] = useState(false);
-  function handleMenuHeaderOpen(){
+  function handleMenuHeaderOpen() {
     setMenuHeaderOpen(isMenuHeaderOpen = !isMenuHeaderOpen);
   }
   return (
@@ -49,7 +50,9 @@ function Header() {
       </nav>
       <button className='header__button'
         onClick={handleMenuHeaderOpen}
-      />
+      >
+        <img src={headerButton} alt="" className="header__button" />
+      </button>
     </header>
   );
 }

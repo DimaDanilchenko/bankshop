@@ -1,4 +1,12 @@
 .banner__buttons {
   display: flex;
   flex-direction: row;
+  margin-bottom: 30px;
+}
+@media screen and (max-width: 630px) {
+  .banner__buttons{
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 30px;
+  }
 }

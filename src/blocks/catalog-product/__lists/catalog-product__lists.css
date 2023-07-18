@@ -8,3 +8,13 @@
   margin-top: 46px;
   height: 100%;
 }
+@media screen and (max-width: 630px) {
+  .catalog-product__lists{
+    width: calc(100% - 15*2px);
+  }
+}
+@media screen and (max-width: 430px) {
+  .catalog-product__lists{
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  }
+}

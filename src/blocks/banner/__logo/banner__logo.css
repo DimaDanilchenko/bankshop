@@ -4,3 +4,9 @@
   margin-top: 146px;
   margin-left: 76px;
 }
+@media screen and (max-width: 630px) {
+  .banner__logo{
+    margin: 0 auto;
+    margin-top: 120px;
+  }
+}
