@@ -2,6 +2,7 @@ import bannerLogo from "../images/metrax-logo1.png";
 import leftButton from "../images/left-button.png";
 import rightButton from "../images/right-button.png";
 import catalogPhoto from "../images/catalog-photo.png";
+import { Link } from 'react-router-dom';
 function Main() {
   return (
     <main className="content">
@@ -28,9 +29,9 @@ function Main() {
         <div className="catalog-product__lists">
           <div className="catalog-product__list">
             <h2 className="catalog-product__about">Сортировщики банкнот</h2>
-            <a href="#" className="catalog-product__link">
-              перейти в каталог &gt;
-            </a>
+            <Link to="/sortirovka-banknot" className="catalog-product__link">
+              перейти в каталог
+            </Link>
             <img
               src={catalogPhoto}
               className="catalog-product__photo"
@@ -38,9 +39,9 @@ function Main() {
           </div>
           <div className="catalog-product__list">
             <h2 className="catalog-product__about">Техника для офиса</h2>
-            <a href="#" className="catalog-product__link">
-              перейти в каталог &gt;
-            </a>
+            <Link to="/office-texnika" className="catalog-product__link">
+              перейти в каталог
+            </Link>
             <img
               src={catalogPhoto}
               className="catalog-product__photo"

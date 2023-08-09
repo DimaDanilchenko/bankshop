@@ -1,5 +1,7 @@
 import React, { useState } from 'react';
 import headerButton from "../images/hamburger_menu_icon_160905.svg";
+import { Link } from 'react-router-dom';
+import { NavLink } from 'react-router-dom';
 
 function Header() {
   let [isMenuHeaderOpen, setMenuHeaderOpen] = useState(false);
@@ -8,9 +10,13 @@ function Header() {
   }
   return (
     <header className="header">
-      <div className="header__logo" />
+      <Link to="/" className="">
+        <div className="header__logo" />
+      </Link>
       <nav className="header__nav">
+
         <ul className={`header__links ${isMenuHeaderOpen ? "header__links_active" : ""}`}>
+          <NavLink to="/about-company" className={({ isActive }) => `header__links ${isActive ? "header__links_active" : ""}`}>О компании</NavLink>
           <li className={`header__list ${isMenuHeaderOpen ? "header__list_active" : ""}`}>
             <a href="#" className={`header__link ${isMenuHeaderOpen ? "header__link_active" : ""}`}>
               О компании
