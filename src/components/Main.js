@@ -6,7 +6,6 @@ function Main() {
   return (
     <main className="content">
       <section className="banner">
-        <img src="./image/mainLogoBanner.png" alt="" className="banner__photo" />
         <img src={bannerLogo} alt="" className="banner__logo" />
         <p className="banner__title">
           Ручные и автоматические дефибрилляторы «Primedic»
@@ -28,7 +27,7 @@ function Main() {
         <h2 className="catalog-product__title">Банковское оборудование</h2>
         <div className="catalog-product__lists">
           <div className="catalog-product__list">
-            <h2 className="catalog-product__about">ОБОРУДОВАНИЕ</h2>
+            <h2 className="catalog-product__about">Сортировщики банкнот</h2>
             <a href="#" className="catalog-product__link">
               перейти в каталог &gt;
             </a>
@@ -38,47 +37,7 @@ function Main() {
             />
           </div>
           <div className="catalog-product__list">
-            <h2 className="catalog-product__about">ОБОРУДОВАНИЕ</h2>
-            <a href="#" className="catalog-product__link">
-              перейти в каталог &gt;
-            </a>
-            <img
-              src={catalogPhoto}
-              className="catalog-product__photo"
-            />
-          </div>
-          <div className="catalog-product__list">
-            <h2 className="catalog-product__about">ОБОРУДОВАНИЕ</h2>
-            <a href="#" className="catalog-product__link">
-              перейти в каталог &gt;
-            </a>
-            <img
-              src={catalogPhoto}
-              className="catalog-product__photo"
-            />
-          </div>
-          <div className="catalog-product__list">
-            <h2 className="catalog-product__about">ОБОРУДОВАНИЕ</h2>
-            <a href="#" className="catalog-product__link">
-              перейти в каталог &gt;
-            </a>
-            <img
-              src={catalogPhoto}
-              className="catalog-product__photo"
-            />
-          </div>
-          <div className="catalog-product__list">
-            <h2 className="catalog-product__about">ОБОРУДОВАНИЕ</h2>
-            <a href="#" className="catalog-product__link">
-              перейти в каталог &gt;
-            </a>
-            <img
-              src={catalogPhoto}
-              className="catalog-product__photo"
-            />
-          </div>
-          <div className="catalog-product__list">
-            <h2 className="catalog-product__about">ОБОРУДОВАНИЕ</h2>
+            <h2 className="catalog-product__about">Техника для офиса</h2>
             <a href="#" className="catalog-product__link">
               перейти в каталог &gt;
             </a>

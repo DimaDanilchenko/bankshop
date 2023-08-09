@@ -1,0 +1,8 @@
+.footer__image{
+
+}
+@media screen and (max-width: 670px) {
+  .footer__image{
+    max-width: 100px;
+  }
+}

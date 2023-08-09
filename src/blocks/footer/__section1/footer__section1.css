@@ -4,9 +4,10 @@
   display: flex;
   flex-direction: column;
 }
-@media screen and (max-width: 630px) {
+@media screen and (max-width: 670px) {
   .footer__section1{
-    margin-left: 10px;
+    margin: 0 auto;
     margin-top: 20px;
+    margin-bottom: 20px;
   }
 }

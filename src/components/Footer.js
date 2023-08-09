@@ -1,9 +1,9 @@
-
+import footerLogo from "../images/Footer-logo.png";
 function Footer() {
   return (
     <footer className="footer">
       <div className="footer__section1">
-        <img src="./image/Footer-logo.png" className="footer__image" />
+        <img src={footerLogo} className="footer__image" />
         <div className="footer-section1-block1">
           <a
             href="https://wa.me/+79996019223"
